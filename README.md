@@ -1,8 +1,6 @@
-# Samsung ECG PDF to CSV v1.7
+# ECG PDF to CSV
 
-A Python desktop application based on the uploaded v1.4 example. All application labels, dialogs and documentation are in English.
-
-## Peak amplitude correction in v1.7
+## Peak amplitude correction
 
 The previous global path could shortcut steep waveform tips and reduce R-peak amplitude. This release detects visible upper and lower turning points in the colored raster trace, estimates stroke-center positions from the line width, and constrains the path to pass through those positions. Horizontal post-smoothing was removed. No gain multiplier or prescribed ECG peak amplitude is applied.
 
