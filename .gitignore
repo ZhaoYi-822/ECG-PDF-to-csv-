@@ -1,0 +1,38 @@
+# Python local environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.spec
+*.egg-info/
+
+# ECG reports and generated outputs (may contain health data)
+example_output/
+output/
+outputs/
+*.pdf
+*.csv
+*_overlay.png
+*_settings.json
+*_comparison.png
+
+# Local secrets
+.env
+.env.*
